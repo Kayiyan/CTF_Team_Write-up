@@ -22,3 +22,9 @@ Và lỗi là ở chunk IHDR. Mình tìm hiểu thêm về chunk IHDR thì nhậ
 ![image](https://github.com/Kayiyan/CTF/assets/112896213/29ecfa58-47a6-4361-9da6-206101429026)
 
 ![image](https://github.com/Kayiyan/CTF/assets/112896213/28e5342f-d05f-4228-bf16-1a3f6bc96eb5)
+
+Vậy là bây giờ mình cần chỉnh sửa byte này để file png này không bị lỗi nữa.
+Tại offset 21, hex value là 0xA9D5455B, mình nhận thấy nó giống với ERROR đã được thông báo nên mình thay đổi hexvalue này thành 0x1d9c52c0.
+
+![image](https://github.com/Kayiyan/CTF_Team/assets/112896213/16058982-1cb9-4aaf-82bb-1ddf5b5e83f1)
+

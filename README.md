@@ -1,1 +1,1 @@
-# CTF
+# Some CTF write-up challenge

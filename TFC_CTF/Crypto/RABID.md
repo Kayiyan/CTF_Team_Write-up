@@ -1,4 +1,7 @@
-![image](https://github.com/Kayiyan/CTF_Team/assets/126185640/385ff454-e123-4b0f-8e6b-96b0a76628b0)![image](https://github.com/Kayiyan/CTF_Team/assets/126185640/f3ddc8a8-61e4-48b9-b664-01b98a4cb932)# RABID
+
+![image](https://github.com/Kayiyan/CTF_Team/assets/126185640/385ff454-e123-4b0f-8e6b-96b0a76628b0)![image](https://github.com/Kayiyan/CTF_Team/assets/126185640/f3ddc8a8-61e4-48b9-b664-01b98a4cb932)
+
+# RABID
 # Level : Easy
 # Points 
 

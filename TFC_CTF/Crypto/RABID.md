@@ -1,8 +1,6 @@
 # RABID
 # Level : Easy
-# Points 
-
-![image](https://github.com/Kayiyan/CTF_Team/assets/126185640/385ff454-e123-4b0f-8e6b-96b0a76628b0)
+# Points : 50
 
 # Description #
 

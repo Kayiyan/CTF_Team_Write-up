@@ -1,6 +1,6 @@
 # Name : Bunker Esacape
 * Points : 150
-* Category : Crypto
+* Category : Cryptography
 # Description
 
 During the infiltration operation into the bunker, while attempting to escape, we were discovered by the enemy, and all the bunker's doors were shut...! Fortunately, you were still able to intercept the enemy's communication. Decode the communication to gather information!

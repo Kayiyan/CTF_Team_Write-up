@@ -15,7 +15,8 @@ Export that might find out somethings
 
 The picture i got :
 
-![image](https://github.com/Kayiyan/CTF_Team/assets/126185640/b3de0d6f-3750-4c2a-9c93-8c765344686c)
+![image](https://github.com/Kayiyan/CTF_Team/assets/126185640/151aa766-3ec4-434f-b99f-93707bac65f3)
+
 
 So close to the flag , now open stegsolve to modify some plane bit to make it more clearly and got the flag :
 

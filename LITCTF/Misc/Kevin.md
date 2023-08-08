@@ -8,8 +8,15 @@ http://litctf.org:31788/
 
 # Solved #
 
-Việc đầu tiên mình làm sau khi tải file xuống là kiểm tra file đó là file gì, 
-sau khi xác nhận đó là file **png** thì mình sử dụng lệnh pngcheck để kiểm tra file ảnh có vấn đề gì không 
-thì phát hiện file ảnh có lỗi.
-![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/f2d7ca4e-b911-4141-857a-db5d625a280a)
+Mình nhấn và web và thấy bức ảnh khuôn mặt rất đặc biệt nên mình tải về để kiểm tra.
+![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/df264666-5dae-4ce4-9d09-a4d51c2802a1)
 
+Đây là một file png vì vậy mình sẽ đổi file extension thành **.png**.
+![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/105254cc-d359-4da4-9fc7-d21eedbe05ff)
+
+Sau đó mình sử dụng zsteg để kiểm tra bức ảnh và thu được flag.
+![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/159373cf-adc3-4c17-ad97-50174a047d2c)
+
+# Flag #
+
+`LITCTF{3d_printing_is_cool}`

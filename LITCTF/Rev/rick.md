@@ -13,14 +13,14 @@ Sau khi tải file về, mình kiểm tra file và nó là file nhị phân, dù
 
 ![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/60804710/68564c72-a730-437f-8d6a-770530b2c2c2)
 
-Chương trình in ra "wat is flag"
+Chương trình in ra `wat is flag` và nhận 63 kí tự vào xâu s, có vẻ là sẽ nhập Flag vào và kiểm tra xem flag có đúng hay không. Sau đó dùng for để đảo ngược xâu flag nhập vào rồi copy `a1l0rkc1r7xen3h` vào `dest` bằng lệnh memcpy. Rồi dùng `strcmp` để so sánh flag đã đảo ngược với `dest`. Vì vậy ta sẽ xem `a1l0rkc1r7xen3h` có gì.
 
-Vì vậy dữ liệu bên trong file sẽ có nghĩa và chúng ta cần giải mã nó. Mình tìm được một công cụ để decode là [WhiteSpace Language](![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/9b668cea-7891-4dd4-9071-071c04543556)
-). Sau khi sử dụng, mình thu được một đoạn text.
-![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/a5b7a6fb-eb06-4188-a047-a8a954b9a47c)
+![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/60804710/82ad21c4-3cbe-4260-86bc-ad166292bcb9)
 
-Nhiệm vụ cuối cùng là bọc nó trong LITCTF{}.
+Và đúng thật `a1l0rkc1r7xen3h` chứa flag đảo ngược `}1l0rkc1r_7xen_3ht_3k4m_4nn0g_7pgt4hc{FTCTILse 7)`, vì vậy ta chỉ cần dùng công cụ `CyberChef` để đảo ngược lại xâu trên và nhận được flag như hình.
+
+![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/60804710/b8ce4e5f-1505-4c21-abf9-d66d6386679d)
 
 # Flag #
 
-`LITCTF{h1d1ng_1n_pl41n_s1ght}`
+`LITCTF{ch4tgp7_g0nn4_m4k3_th3_nex7_r1ckr0l1}`

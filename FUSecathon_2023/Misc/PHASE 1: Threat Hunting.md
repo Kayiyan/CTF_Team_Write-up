@@ -23,6 +23,6 @@ Mình sử dụng `autorun.exe` để tìm các process đang chạy, vì tất 
 
 ![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/746edfdd-c802-4e25-8e24-595fef95e8dd)
 
-Ở đây, mình chú ý hơn cả vào những dòng có màu đỏ (Not Vertified), và nhận thấy Entry `Red Apple` là entry đáng nghi.
+Ở đây, mình chú ý hơn cả vào những dòng có màu đỏ (Not Vertified), và nhận thấy Entry **_RedApple_** là entry đáng nghi vì `scvhost.exe` là file được đặt trong system folder chứ không phải như path mà chúng ta thấy.
 
 > **Flag**: `FUSec{svchost.exe}`

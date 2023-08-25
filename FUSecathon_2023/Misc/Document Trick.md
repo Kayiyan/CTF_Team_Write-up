@@ -32,7 +32,7 @@ nhưng vẫn chứa một số chữ đọc được khá lạ, mình đoán đ�
 
 Mình tải file về và kiểm tra thì đây là một file PE32 (DLL).
 
-_Sau đây là kiến thức về RE, mình không hiểu nên sử dụng đoạn wu của một đội khác_
+_Sau đây là kiến thức về RE, mình không hiểu nên sử dụng đoạn [wu của một đội khác](https://github.com/bananNat/FUSec2023/blob/main/README.md)_
 
 ![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/17f23012-c111-4fec-809b-323c83869e21)
 

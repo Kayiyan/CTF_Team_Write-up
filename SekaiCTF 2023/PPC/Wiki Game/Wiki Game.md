@@ -34,42 +34,79 @@ Chúng ta có thể sử dụng cả 2 thuật toán đối với bài này là 
 
 * Đối với BFS, chúng ta sẽ duyệt qua tất cả các đỉnh liền kề của các đỉnh bắt đầu từ root (theo thứ tự level, u = root = 0) khi level <=6. Nếu như có thể gặp được đỉnh v trong quá trình duyệt thì sẽ tồn tại một đường đi có độ dài <=6 từ đỉnh u đến đỉnh v
 
+  ```python
+  def check_path(graph, u, v):
+    visited = set()
+    level = [u]
+    # loop to check level number
+    for i in range(6):
+        next_level = []
+        # loop to check vertex in current level
+        for vertex in level:
+            visited.add(vertex)
+            # loop to check neighbor
+            for neighbor in graph[vertex]:
+                # check if neighbor vertex is target vertex
+                if neighbor == v:
+                    return True
+                if neighbor not in visited:
+                    next_level.append(neighbor)
+        level = next_level
+    return False     
+
+  T = int(input(),10)
+  # exec each test cases
+  for _ in range(T):
+      V, E = map(int, input().split())
+      graph = [[] for _ in range(V)]
+      # input graph edges
+      for _ in range(E):
+          u, v = map(int, input().split())
+          graph[u].append(v)
+      src, dst = map(int, input().split())
+      # check if exist path <=6 between src and dst
+      if check_path(graph, src, dst):
+          print("YES")
+      else:
+          print("NO")
+    ```
+
 * Đối với DFS, chúng ta sẽ duyệt qua từng nhánh sâu nhất tính từ root (u = root = 0), nếu như level > 6 thì sẽ quay ngược lại node cha để kiểm tra các nhánh còn lại. Nếu như level <=6 mà gặp được v thì tồn tại một đường đi có độ dài <-6 từ đỉnh u đến đỉnh v
 
-```python
-def checkPath(srcVer, dstVer, length): 
-    if length > 6:
-        return False
-    if srcVer == dstVer:
-        return True
-    
-    visited[srcVer] = True
-
-    for neighbor in graph[srcVer]:
-        if not visited[neighbor]:
-            if checkPath(neighbor, dstVer, length+1):
-                return True
-            
-    visited[srcVer] = False
-
-    return False
-
-testcaseNum = int(input(),10)
-
-for case in range(testcaseNum):
-    verticesNum, edgesNum = map(int, input().split())
-
-    graph = [[] for i in range(verticesNum)]
-    visited = [False] * verticesNum
-
-    for edges in range(edgesNum):
-        startVer, endVer = map(int, input().split())
-        graph[startVer].append(endVer)
-
-    srcVer, dstVer = map(int, input().split())
-
-    if checkPath(srcVer, dstVer, 0):
-        print("YES")
-    else:
-        print("NO")
-```
+  ```python
+  def checkPath(srcVer, dstVer, length): 
+      if length > 6:
+          return False
+      if srcVer == dstVer:
+          return True
+      
+      visited[srcVer] = True
+  
+      for neighbor in graph[srcVer]:
+          if not visited[neighbor]:
+              if checkPath(neighbor, dstVer, length+1):
+                  return True
+              
+      visited[srcVer] = False
+  
+      return False
+  
+  testcaseNum = int(input(),10)
+  
+  for case in range(testcaseNum):
+      verticesNum, edgesNum = map(int, input().split())
+  
+      graph = [[] for i in range(verticesNum)]
+      visited = [False] * verticesNum
+  
+      for edges in range(edgesNum):
+          startVer, endVer = map(int, input().split())
+          graph[startVer].append(endVer)
+  
+      srcVer, dstVer = map(int, input().split())
+  
+      if checkPath(srcVer, dstVer, 0):
+          print("YES")
+      else:
+          print("NO")
+  ```

@@ -70,6 +70,8 @@ Thông báo cho thấy ta thu được `Key` ở đây , Đem nó đi `XOR` vớ
 
 ![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/126185640/078dad11-4b82-44cd-a36c-ca70f344ef7d)
 
+# Flag 
+
 `Flag` : `SEKAI{so_i_guess_we'll_get_more_better_next_year-_-}`
 
 

@@ -1,4 +1,4 @@
-![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/241a8dcd-26de-4eab-8b68-c6ca36fdd170)# Document Trick
+# Document Trick
 
 ### _Points: 500_
 

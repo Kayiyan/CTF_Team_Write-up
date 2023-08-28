@@ -17,3 +17,13 @@ Welcome to Project SEKAI Online Judge!
 ### _Author: sahuang_
 
 ### _Solution:_
+
+**Tóm tắt đề bài**
+
++ _Input:_
+  - T : số testcases (1<=T<=20)
+  - Trong mỗi test cases chúng ta sẽ có một đồ thị có hướng G(V, E) - V đỉnh, E cạnh - và hai đỉnh đầu (u) và đích (v).
++ _Output:_
+  - T dòng
+  - Mỗi dòng là kết quả của việc kiểm tra một test case xem có tồn tại một đường đi <=6 từ đỉnh u đến đỉnh v hay không.
+  - Nếu có, in ra màn hình _YES_, không thì in ra _NO_

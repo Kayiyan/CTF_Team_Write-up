@@ -178,6 +178,8 @@ last_result = bytes.fromhex(xor_result_hex)
 print(last_result)
 ```
 
+# Flag 
+
  `FLAG`  : `SEKAI{3v4l_g0_8rrrr_8rrrrrrr_8rrrrrrrrrrr_!!!_8483}`
 
 

@@ -31,16 +31,27 @@ Vì vậy, mình thử đọc phiên lại các phonemes ấy, mình sử dụng
 ![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/599ce887-541a-4c5e-bdbc-b481236de85e)
 
 `eh f` : F
+
 `eh l` : L
+
 `ey`   : A
+
 `jh`   : G
+
 `iy`   : is
+
 `k ow l ax n`: dấu ':'
+
 `eh s` : S
+
 `iy`   : E
+
 `k ey` : K
+
 `ay`   : A
+
 `ey`   : I
+
 `ow p ax n k er l iy b r ae k ih t`: dấu '{'
 
 Phần còn lại bạn hãy đoán nốt nhé ^^

@@ -12,6 +12,6 @@ Flag format (Regex): SEKAI\{[A-Z0-9]+\}.
 > 
 > No romanization or Japanese translation is needed to solve the challenge. The flag you find will satisfy the flag regex. The flag in Japanese is a fake flag.
 
-### _Author: yurri_re_
+### _Author: pamLELcu_
 
 ### _Solution:_
